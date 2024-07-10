@@ -71,21 +71,16 @@ nav ul li{
 }
 .secondary-bg{
     background-color: #FAFAFB;
-    /* margin-left: 140px;
-    margin-right: 150px; */
     border-radius: 10px;
     width: 1140px;
-    /* height: 1393px; */
-    
-   justify-content: center;
+    /* padding: 80px 97px 80px 97px; */
+    justify-content: center;
     margin: 0 auto;
+    
 }
 .section-title{
     font-size: 32px;
     font-weight: 900;
-     /* padding-top: 80px; */
-
-
 }
 .text-size{
     font-size: 16px;
@@ -105,7 +100,13 @@ nav ul li{
     margin-bottom: 32px;
 }
 .section-size{
-    /* width: 946px;
-    height: 1233px; */
     padding: 80px 97px 80px 97px;
+    width: 946px;
+}
+.btn-primary-learn-more{
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: #565A64;
+    background-color: #ffffff;
+   
 }
