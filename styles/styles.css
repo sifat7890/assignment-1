@@ -1,8 +1,4 @@
-/* Header */
-.header{
-   
-    
-}
+
 
 
 .azeret-mono-normal {
@@ -16,6 +12,10 @@
     padding: 17px 24px 17px 24px;
     border-radius: 8px;
     opacity: 80%;
+}
+.text{
+    font-size: 24px;
+    font-weight: bold;
 }
 /* nav styles */
 nav{ 
@@ -33,14 +33,17 @@ nav ul li{
     margin-right: 50px;
 }
 /* banner */
-.banner{  text-align: center;
+.banner{  
+    text-align: center;
     margin: 50px auto;
     width: 998px; 
+   
 }
 .bg-image{
     background-image: url(../assets/Hero-bg.png);
   
-    background-size: 100%;
+    background-size: cover;
+    height: 65vh;
 }
 .banner-title{
     font-size: 48px;
@@ -48,13 +51,16 @@ nav ul li{
 }
 .banner-content{
     font-size: 16px;
+    margin-bottom: 45px;
 }
-.btn-primary-contact{
+.btn-primary-contact {
     padding: 21px 28px 21px 28px;
     border-radius: 8px;
     color: #ffffff;
     background-color: #0D1321;
     margin-bottom: 45px;
+    text-decoration: none;
+   
    
 }
 .banner img{
@@ -72,10 +78,11 @@ nav ul li{
 .secondary-bg{
     background-color: #FAFAFB;
     border-radius: 10px;
-    width: 1140px;
-    /* padding: 80px 97px 80px 97px; */
+    max-width:1140px;
     justify-content: center;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
     
 }
 .section-title{
@@ -109,4 +116,44 @@ nav ul li{
     color: #565A64;
     background-color: #ffffff;
    
+}
+
+/* Inspiration style */
+.inspiration{
+    text-align: center;
+    width: 1140px;
+    margin: 0 auto;
+}
+.inspiration-title{
+    
+    font-size: 32px;
+    font-weight: bolder;
+}
+.inspiration-description{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    position: absolute;
+   border-radius: 16px; 
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+  
+}
+.link{
+    width: 100%;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+   
+}
+.youtube{
+    border-radius: 16px; 
+    border: 1px solid gray;
+    padding: 10px;
+    width: 1140px;
+
 }
