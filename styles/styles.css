@@ -126,6 +126,14 @@ nav ul li{
     margin: 0 auto;
     margin-bottom: 100px;
 }
+.inspiration-head{
+    width: 852px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+
+}
 .inspiration-title{
     
     font-size: 32px;
@@ -175,16 +183,19 @@ iframe{
     background-color: #FFF6F4;
     margin: 24px;
     padding: 40px;
+    border-radius: 10px;
 }
 .css{
     background-color: #F2F6FE;
     margin: 24px;
     padding: 40px;
+    border-radius: 10px;
 }
 .javascript{
     background-color: #FFFDF2;
     margin: 24px;
     padding: 40px;
+    border-radius: 10px;
 }
 .target{
     width: 1140px;
@@ -200,4 +211,23 @@ iframe{
     width: 852px;
     margin: 0 auto;
 
+}
+.font-size{
+    font-size: 24px;
+}
+.reactJS ,.mongodb ,.nodejs{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid gray;
+    margin-top: 24px;
+    padding: 40px;
+    border-radius: 16px;
+
+}
+
+.framwork-image1, .framwork-image2,.framwork-image3{
+    width: 108px;
+    height: 108px;
+   
 }
