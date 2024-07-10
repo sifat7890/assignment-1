@@ -33,15 +33,14 @@ nav ul li{
     margin-right: 50px;
 }
 /* banner */
-.banner{
-  text-align: center;
-  /* height: 582px;
-  width: 998px; */
- /* margin-top: 500px; */
-  margin: 50px auto;
-  background-image: url(../assets/Hero-bg.png);
-  /* width: 1140px;
-  height: 652px; */
+.banner{  text-align: center;
+    margin: 50px auto;
+    width: 998px; 
+}
+.bg-image{
+    background-image: url(../assets/Hero-bg.png);
+  
+    background-size: 100%;
 }
 .banner-title{
     font-size: 48px;
@@ -55,10 +54,58 @@ nav ul li{
     border-radius: 8px;
     color: #ffffff;
     background-color: #0D1321;
-    margin-bottom: 44px;
+    margin-bottom: 45px;
+   
 }
 .banner img{
     height: 240px;
     width: 240px;
     margin-top: 26px;
+}
+/* section styles */
+.section-opportunity{
+    text-align: center;
+    padding: 0px 144px;
+    margin-bottom: 48px;
+   
+}
+.secondary-bg{
+    background-color: #FAFAFB;
+    /* margin-left: 140px;
+    margin-right: 150px; */
+    border-radius: 10px;
+    width: 1140px;
+    /* height: 1393px; */
+    
+   justify-content: center;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 900;
+     /* padding-top: 80px; */
+
+
+}
+.text-size{
+    font-size: 16px;
+}
+.section-explain{
+    display: flex;
+}
+.item{
+    background-color: #FEFEFE;
+    width: 477px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 48px;
+}
+.section-explain{
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+.section-size{
+    /* width: 946px;
+    height: 1233px; */
+    padding: 80px 97px 80px 97px;
 }
