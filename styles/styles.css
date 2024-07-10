@@ -43,7 +43,8 @@ nav ul li{
     background-image: url(../assets/Hero-bg.png);
   
     background-size: cover;
-    height: 65vh;
+   
+    height: 652px;
 }
 .banner-title{
     font-size: 48px;
@@ -123,6 +124,7 @@ nav ul li{
     text-align: center;
     width: 1140px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .inspiration-title{
     
@@ -155,5 +157,47 @@ iframe{
     border: 1px solid gray;
     padding: 10px;
     width: 1140px;
+
+}
+/* My current target */
+.target-title{
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
+
+}
+.target-item{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+.html{
+    background-color: #FFF6F4;
+    margin: 24px;
+    padding: 40px;
+}
+.css{
+    background-color: #F2F6FE;
+    margin: 24px;
+    padding: 40px;
+}
+.javascript{
+    background-color: #FFFDF2;
+    margin: 24px;
+    padding: 40px;
+}
+.target{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    text-decoration: underline;
+    color: #0D1321;
+}
+.next-target-title{
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
 
 }
